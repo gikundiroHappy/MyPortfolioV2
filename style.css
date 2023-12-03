@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.portfolio-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+.portfolio-sidebar {
+  background-color: rgb(255, 255, 255) (222, 211, 211);
+  display: flex;
+}
+.portfolio-content {
+  background-color: #f1f5f6;
+}
