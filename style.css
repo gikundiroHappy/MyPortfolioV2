@@ -18,7 +18,7 @@
   background-color: rgb(255, 255, 255) (222, 211, 211);
 }
 .portfolio-logo p {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   font-size: 20px;
 }
 .portfolio-logo p span {
@@ -31,16 +31,16 @@
 }
 .portfolio-sidebar-sublist {
   margin-bottom: 30px;
-  background: red;
+  position: relative;
 }
-.portfolio-sidebar-list ::after {
+.portfolio-sidebar-sublist ::after {
   content: "";
   width: 100%;
   height: 2px;
   display: block;
-  position: relative;
-  background-color: black;
-  bottom: 5px;
+  position: absolute;
+  background-color: rgb(215, 215, 215);
+  bottom: -5px;
 }
 .portfolio-sidebar-sublist a {
   text-decoration: none;
@@ -51,4 +51,7 @@
 }
 .portfolio-content {
   background-color: #f1f5f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
