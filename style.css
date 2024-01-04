@@ -13,9 +13,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: fixed; */
 }
 .portfolio-sidebar {
   background-color: rgb(255, 255, 255) (222, 211, 211);
+}
+.sidebar-icon {
+  margin-right: 17px;
+  font-size: 18px;
 }
 .portfolio-logo p {
   margin-bottom: 70px;
@@ -45,12 +50,62 @@
 .portfolio-sidebar-sublist a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  font-weight: 600;
   width: 20px;
   height: 2px;
 }
 .portfolio-content {
   background-color: #f1f5f6;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+.portfolio-landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.blackwhite-icon {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 30px;
+}
+.blackwhite-icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid rgb(209, 209, 209);
+  margin-bottom: 80px;
+}
+.portfolio-intro {
+  padding: 20px 0;
+}
+.portfolio-intro .prefix {
+  font-family: corinthia;
+}
+.portfolio-intro .name {
+  color: orange;
+}
+.portfolio-intro .fullname {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.portfolio-intro .introduction {
+  margin-bottom: 30px;
+}
+.portfolio-content-btn {
+  background-color: orange;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 45px;
+  color: white;
+}
+.portfolio-profile {
   display: flex;
   justify-content: center;
   align-items: center;
