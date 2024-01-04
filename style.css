@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 0.3fr 1fr;
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 .sidebar {
   display: flex;
@@ -83,6 +84,7 @@
 }
 .portfolio-intro {
   padding: 20px 0;
+  width: 100%;
 }
 .portfolio-intro .prefix {
   font-family: corinthia;
@@ -109,4 +111,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 475px) {
+  .portfolio-container {
+    max-width: 475px;
+  }
+  .portfolio-content-btn {
+    font-size: 14px;
+  }
+  .portfolio-profile {
+    display: none;
+  }
+  .blackwhite-icon i {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-container {
+    max-width: 768px;
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    display: none;
+  }
+  .portfolio-content-btn {
+    font-size: 14px;
+  }
+  .portfolio-intro .introduction {
+    font-size: 14px;
+  }
+  .portfolio-profile {
+    justify-content: end;
+  }
+  .portfolio-landing {
+    grid-template-columns: 1fr 0.3fr;
+  }
 }
